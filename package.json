@@ -1,0 +1,24 @@
+{
+  "name": "projector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "start": "concurrently \"tsc -w\" \"nodemon ./build/main.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/command-line-args": "^5.2.3",
+    "@types/node": "^20.14.0",
+    "command-line-args": "^5.2.1",
+    "concurrently": "^8.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
