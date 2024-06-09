@@ -1,3 +1,3 @@
-import { opts } from "./opts";
+import { getOpts } from "./opts";
 
-console.log(opts());
+console.log(getOpts());

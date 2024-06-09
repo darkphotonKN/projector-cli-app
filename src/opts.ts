@@ -10,7 +10,7 @@ export type Opts = {
   config?: string; // extra configs
 };
 
-export function opts() {
+export function getOpts() {
   console.log("beginning opts");
 
   return cli([
